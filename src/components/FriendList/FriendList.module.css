@@ -1,0 +1,42 @@
+.friends {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+  list-style-type: none;
+}
+
+.friendsItem {
+  margin-right: 12px;
+  border-radius: 6px;
+  border: 1px solid #242424;
+  padding: 8px;
+  width: calc(100% / 5);
+}
+
+.friendsItem:last-child {
+  margin-right: 0;
+}
+
+.friendsItemWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.friendPhoto {
+  padding-bottom: 10px;
+}
+
+.friendName {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.isOnline {
+  color: #08db08;
+}
+
+.isOffline {
+  color: rgb(222, 8, 8);
+}

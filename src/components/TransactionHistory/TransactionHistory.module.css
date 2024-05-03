@@ -1,0 +1,20 @@
+.transactionsTable {
+  width: 100%;
+}
+
+.transactionsName {
+  background-color: #6d6d6d;
+  color: #ebebeb;
+}
+
+.transactionsInfo {
+  text-align: center;
+}
+.transactionseven {
+  background-color: #fff;
+  color: black;
+}
+.transactionsodd {
+  background-color: gray;
+  color: black;
+}
